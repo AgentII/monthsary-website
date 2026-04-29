@@ -1,0 +1,51 @@
+# Happy Monthsary Card - Project Documentation
+
+## Project Overview
+- **Project Type**: React + TypeScript Web Application
+- **Purpose**: A romantic monthsary (anniversary) card with interactive features
+- **Target Users**: Couples celebrating their monthly anniversary
+
+## Features Implemented
+
+### 1. Confetti Animation on Launch
+- Colorful confetti bursts from both sides of the screen
+- Floating heart animations in the background
+- Automatic cleanup after 4 seconds
+
+### 2. Personalized Message Section
+- Beautiful gradient text for the title
+- Decorative serif fonts (Playfair Display)
+- Elegant card design with glassmorphism effect
+- Decorative heart dividers
+
+### 3. Interactive Digital Bouquet
+- 4 interactive flowers (Rose, Cherry Blossom, Daisy, Lily)
+- Each touch triggers:
+  - Mini confetti burst
+  - Flower animation (bounce effect)
+  - Progress indicator updates
+- Flowers glow and animate when touched
+
+### 4. Hidden Surprise Message
+- Revealed after touching all 5 flowers (touch count: 5/5)
+- Modal overlay with romantic surprise message
+- Animated hearts and sparkles
+- Close button to dismiss
+
+## Tech Stack
+- React 18 + TypeScript
+- Vite for build tooling
+- Tailwind CSS for styling
+- Framer Motion for animations
+- canvas-confetti for confetti effects
+- Lucide React for icons
+
+## Custom Fonts
+- Playfair Display (serif)
+- Dancing Script (handwriting)
+- Great Vibes (script)
+
+## Build Commands
+- Development: `pnpm run dev`
+- Production build: `pnpm run build`
+- Preview: `pnpm run preview`
